@@ -2,4 +2,4 @@ docker build -t hanbeen/fastapi-server:1.0 .
 docker run --env-file .env -p 80:8000 --name fastapi-server --rm -d hanbeen/fastapi-server:1.0 
 docker push hanbeen/fastapi-server:1.0
 
-새로 변경 사항
+새로 변경 사항 2
